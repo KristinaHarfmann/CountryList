@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+	    <meta charset="utf-8"/>
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+	    <link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		<script type="application/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<script type="application/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    	<script type="application/javascript" src="CountryList.js"></script>
+		<div>
+			<h1> North American Country List </h1>
+		</div>
+		<title>Country List</title>
+	</head>
+	<body onload="Prompt()">
+
+	    <div id="dialog-form">
+			<label id="input" for="name">Three Letter code for North American Country:</label>
+			<input type="text" id="prompt_input" class="text ui-widget-content ui-corner-all" style="width: 320px; ; height: 20px; font-size: 1.5rem;"/>
+			<p>
+				CAN- Canada<br> MEX- Mexico<br> BLZ- Belize<br>
+				GTM- Guatemala<br> SLV- El Salvador<br> HND- Honduras<br>
+				NIC- Nicaragua<br> CRI- Costa Rica<br> PAN- Panama
+			</p>
+		</div>
+		<div id="app" class="container">
+			<div class="table">
+				<table id = "table">
+					<thead>
+						<tr>
+							<th> Path </th>
+						</tr>
+					</thead>
+				</table>
+			</div>
+		</div>
+		<div id="regions_div" style="width: 900px; height: 500px;"></div>
+		<script type="application/javascript" src="CountryList.js"></script>
+	</body>
+</html>
