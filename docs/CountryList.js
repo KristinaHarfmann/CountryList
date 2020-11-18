@@ -43,7 +43,7 @@ function Find(end_loc) {
 	  var row = document.createElement("tr");//create row
 		var cell = document.createElement("td");//create table data
 		var img = document.createElement('img');//create image
-		img.src = "../Computer Science/images/" + item +".png";//get image from files
+		img.src = "../images/" + item +".png";//get image from files
 		img.style.width = "30px";
 		img.style.height = "15px";
 
